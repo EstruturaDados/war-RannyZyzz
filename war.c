@@ -43,7 +43,7 @@ int main() {
   for (int i = 0; i < num_elementos; i++) {
     printf("TERRITÓRIO %d:\n", i + 1);
     printf("- Nome: %s\n", vetor_dinamico[i].territorio_nome);
-    printf("- Dominado por: Exercito %s\n", vetor_dinamico[i].territorio_cor);
+    printf("- Dominado por: Exército %s\n", vetor_dinamico[i].territorio_cor);
     printf("- Tropas: %d\n\n", vetor_dinamico[i].territorio_numero_de_tropas);
   }
 
